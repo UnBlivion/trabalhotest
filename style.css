@@ -1,0 +1,282 @@
+body{
+    margin: 0;
+    font-family: 'Roboto',sans-serif;
+}
+
+header{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #5f6debd2;
+}
+
+.faixa{
+    height: auto;
+    width: 100vw;
+    background-color: #3244e9d2;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.logo{
+    height: 40px;
+    width: 40px;
+    margin: 0 2vw;
+}
+
+.text{
+    flex-direction: column;
+    margin: 0 5vw;
+    color: white;
+    justify-content: space-around;
+}
+
+h1{
+    font-size: 35pt;
+    font-family: 'Pacifico',cursive;
+    margin: 0;
+}
+
+.alguma{
+    margin: 5vh 0 ;
+    font-size: 15pt;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    display:block;
+}
+
+.coisa{
+    margin: 5vh 0 ;
+    font-size: 35pt;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    display:block;
+}
+
+.iphone{
+    margin: 0 15vw 0 5vw;
+    width: 300px;
+    height: 375px;
+}
+
+section{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #8daffa;
+}
+
+.nada{
+    background-color: #8daffa;
+    justify-content: center;
+    display: flex;
+}
+
+.robozinhos{
+    margin: 3vh 0 0 0;
+    font-size: 25pt;
+    display: flex;
+    color: whitesmoke;
+}
+
+.second{
+    margin: 1vh 0 ;
+    font-size: 17pt;
+    height: auto;
+    width: 25vw;
+    display: flex;
+    color: rgb(124, 124, 124);
+}
+
+h2{
+    font-size: 20pt;
+    color: black;
+    margin-top: 5%;
+}
+
+.icone{
+    padding: 5%;
+    background-color: #2600ff;
+    border-radius: 100%;
+    margin-top: 0%;
+    height: 20vh;
+    width: 20vh;
+}
+
+.segunda{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1vh;
+    padding: 1vw;
+}
+
+aside{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgb(154, 198, 255);
+}
+
+.vidro{
+    height: 35vh;
+    width: 35vw;
+    border-radius: 5px 5px 5px 5px;
+    padding: 10% 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#vidro{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 0px;
+    border: solid 5px rgb(34, 34, 34);
+    border-radius: 10px;
+}
+
+.info{
+    flex-direction: column;
+    display: flex;
+    padding: 3% 5% 5% 2%;
+    width: 30vw;
+}
+
+.mensagem{
+    box-sizing: border-box;
+    width: 70%;
+    height: 5vh;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.192);
+}
+
+.send{
+    background-color: #3474fd;
+    width: 15%;
+    height: 10%;
+    border-radius: 20px;
+    margin-left: 1vw;
+}
+
+.butest{
+    margin: 0;
+    color: whitesmoke;
+    font-size: 12px;
+}
+
+.oia{
+    margin-top: 5%;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    width: 80%;
+}
+
+.secondd{
+    margin: 1vh 0 ;
+    font-size: 17pt;
+    height: auto;
+    width: 100%;
+    display: block;
+    color: rgb(156, 156, 156);
+}
+
+/*footer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.ipsumm{
+    margin-top: 6vh;
+    margin-bottom: 0%;
+    font-size: 15pt;
+    width: 60%;
+    height: auto;
+    display: block;
+    color: rgb(156, 156, 156);
+    text-align: center;
+}
+
+.muspi{
+    margin-top: 0;
+    margin-bottom: 0%;
+    font-size: 15pt;
+    width: 60%;
+    height: auto;
+    display: block;
+    color: rgb(156, 156, 156);
+    text-align: center;
+}
+
+#Jane:hover{
+    background-color: #2ccb6f;
+}
+
+h3{
+    margin-top: 8vh;
+}
+
+h4{
+    margin-bottom: 3vh;
+}
+
+.so{
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    padding: 1px;
+    border: 1px 10px;
+    background-color: rgb(126, 126, 126);
+}
+
+.so:hover{
+    background-color: #2ccb6f;
+}
+
+.links{
+    margin: 5vh;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 25%;
+} */
+
+
+.realfooter{
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 15vh;
+    width: auto;
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 50vw;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h6{
+    padding: 1%;
+    border-radius: 5px;
+}
+
+h6:hover{
+    color: white;
+    background-color:gray;
+}
