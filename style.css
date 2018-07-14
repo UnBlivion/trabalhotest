@@ -57,7 +57,7 @@ h1{
 
 .alguma{
     margin: 5vh 0 ;
-    font-size: 35pt;
+    font-size: 33pt;
     height: auto;
     width: 100%;
     text-align: center;
@@ -94,10 +94,12 @@ h1{
 }
 
 section{
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     display: flex;
     background-color: #8daffa;
+    width: 100%;
+    height: 70vh;
 }
 
 .nada{
@@ -106,39 +108,38 @@ section{
     display: flex;
 }
 
-.robozinhos{
+.galeria{
     margin: 3vh 0 0 0;
-    font-size: 25pt;
-    display: flex;
-    color: whitesmoke;
+    font-size: 35pt;
+    display: block;
+    color: white;
 }
 
 .second{
-    margin: 1vh 0 ;
+    margin: 0;
     font-size: 17pt;
     height: auto;
-    width: 25vw;
+    width: 95%;
     display: flex;
     color: rgb(124, 124, 124);
+    align-items: center;
+    text-align: center;
 }
 
 h2{
     font-size: 20pt;
     color: black;
-    margin-top: 5%;
+    margin: 5% 0 0 0;
 }
 
 .icone{
-    padding: 5%;
-    background-color: #2600ff;
-    border-radius: 100%;
     margin-top: 0%;
-    height: 20vh;
-    width: 20vh;
+    border: solid 3px black;
+    border-radius: 10px;
 }
 
 .segunda{
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -146,10 +147,46 @@ h2{
     padding: 1vw;
 }
 
+.useless{
+    background-color: #acc6ff;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+#uselesss{
+    font-size: 35pt;
+    margin: 5vh 0 0 0;
+    text-align: center;
+    display: block;
+    color: white;
+}
+
+.vantagem{
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    background-color: #acc6ff;
+    width: 100%;
+    height: 70vh;
+}
+
+.vantagem div{
+    text-align: center;
+}
+
+.vantagems{
+    border: solid black 5px;
+    border-radius: 100%;
+    justify-content: space-evenly;
+    display: flex;
+}
+
 aside{
     justify-content: center;
     align-items: center;
     display: flex;
+    height: 50vh;
     background-color: rgb(154, 198, 255);
 }
 
