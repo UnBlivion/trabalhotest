@@ -189,69 +189,6 @@ aside{
     color: rgb(156, 156, 156);
 }
 
-/*footer{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-}
-
-.ipsumm{
-    margin-top: 6vh;
-    margin-bottom: 0%;
-    font-size: 15pt;
-    width: 60%;
-    height: auto;
-    display: block;
-    color: rgb(156, 156, 156);
-    text-align: center;
-}
-
-.muspi{
-    margin-top: 0;
-    margin-bottom: 0%;
-    font-size: 15pt;
-    width: 60%;
-    height: auto;
-    display: block;
-    color: rgb(156, 156, 156);
-    text-align: center;
-}
-
-#Jane:hover{
-    background-color: #2ccb6f;
-}
-
-h3{
-    margin-top: 8vh;
-}
-
-h4{
-    margin-bottom: 3vh;
-}
-
-.so{
-    width: 36px;
-    height: 36px;
-    border-radius: 100%;
-    padding: 1px;
-    border: 1px 10px;
-    background-color: rgb(126, 126, 126);
-}
-
-.so:hover{
-    background-color: #2ccb6f;
-}
-
-.links{
-    margin: 5vh;
-    justify-content: space-between;
-    align-items: center;
-    display: flex;
-    width: 25%;
-} */
-
-
 .realfooter{
     background-color: lightgray;
     justify-content: center;
