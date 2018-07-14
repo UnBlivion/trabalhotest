@@ -8,21 +8,39 @@ header{
     align-items: center;
     display: flex;
     background-color: #5f6debd2;
+    height: 90vh;
+}
+
+.faixa p{
+    font-size: 15pt;
+    margin: 0;
+}
+
+.faixa p:hover{
+    
+    background-color: rgba(211, 211, 211, 0.342);
+    padding: 8px;
+    color: white;
+    border-radius: 20px;
+    
 }
 
 .faixa{
-    height: auto;
+    height: 10vh;
     width: 100vw;
-    background-color: #3244e9d2;
-    justify-content: center;
+    background-color: #3244e9;
+    justify-content: space-evenly;
+    position: fixed;
     align-items: center;
     display: flex;
 }
 
 .logo{
-    height: 40px;
-    width: 40px;
-    margin: 0 2vw;
+    height: 35px;
+    width: 35px;
+    border: solid 3px black;
+    border-radius: 25%;
+    padding: 2px;
 }
 
 .text{
@@ -33,14 +51,13 @@ header{
 }
 
 h1{
-    font-size: 35pt;
-    font-family: 'Pacifico',cursive;
-    margin: 0;
+    font-size: 30pt;
+    margin: 0 5vw 0 0;
 }
 
 .alguma{
     margin: 5vh 0 ;
-    font-size: 15pt;
+    font-size: 35pt;
     height: auto;
     width: 100%;
     text-align: center;
@@ -49,17 +66,31 @@ h1{
 
 .coisa{
     margin: 5vh 0 ;
-    font-size: 35pt;
+    font-size: 15pt;
     height: auto;
     width: 100%;
     text-align: center;
     display:block;
 }
 
-.iphone{
-    margin: 0 15vw 0 5vw;
+.pessoas{
+    margin: 10vh 1vw 0 1vw;
     width: 300px;
     height: 375px;
+    border: solid 3px black;
+    border-radius: 10px;
+}
+
+.somos{
+    margin: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.somos p{
+    margin: 5px 0 0 0;
+    font-size: 15pt;
 }
 
 section{
