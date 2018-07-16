@@ -2,13 +2,18 @@ body{
     margin: 0;
     font-family: 'Roboto',sans-serif;
 }
-
+a {
+    color: inherit;
+    text-decoration: none;
+}
 header{
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
     display: flex;
     background-color: #5f6debd2;
-    height: 90vh;
+    margin-top: 8vh;
+    height: 55vh;
 }
 
 .faixa p{
@@ -31,57 +36,90 @@ header{
     background-color: #3244e9;
     justify-content: space-evenly;
     position: fixed;
+    top: 0;
     align-items: center;
     display: flex;
 }
 
-.logo{
+/*.logo{
     height: 35px;
     width: 35px;
     border: solid 3px black;
     border-radius: 25%;
     padding: 2px;
-}
-
+}*/
 .text{
     flex-direction: column;
-    margin: 0 5vw;
     color: white;
     width: 50vw;
+    height: 10vh;
     justify-content: space-around;
 }
-
+.icone-logo {
+    display: flex;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    font-size: 1.2em;
+    margin-right: 10px;
+}
 h1{
+    display: flex;
+    align-items:center;
+    font-family: 'Knewave';
     font-size: 30pt;
     margin: 0 5vw 0 0;
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, .8);
 }
-
-.alguma{
-    margin: 5vh 0 ;
-    font-size: 4vw;
-    height: auto;
-    width: 100%;
-    text-align: center;
-    display:block;
+.avatar {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-
+.ruan {
+    background-image: url('img/RuanAvatar.gif');
+}
+.ruan:hover {
+    background-image: url('img/RuanDancing.gif');
+    width: 100px;
+    height: 100px;
+}
+.japa {
+    background-image: url('img/JapaAvatar.gif');
+}
+.japa:hover {
+    background-image: url('img/JapaRunning.gif');
+    width: 100px;
+    height: 100px;
+}
 .coisa{
     margin: 5vh 0 ;
     font-size: 2vw;
     height: auto;
     width: 100%;
-    text-align: center;
     display:block;
+    word-spacing: 4px;
+    animation: textoDinamico 20s infinite;
 }
-
+.dinamico {
+    font-weight: bold;
+    animation: palavraDinamica 20s infinite;
+}
 .pessoas{
     margin: 10vh 1vw 0 1vw;
-    width: 25vw;
+    /*width: 25vw;*/
     height: 28vw;
     border: solid 3px black;
     border-radius: 10px;
 }
-
+.time {
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
 .somos{
     margin: 0;
     align-items: center;
@@ -91,7 +129,8 @@ h1{
 
 .somos p{
     margin: 5px 0 0 0;
-    font-size: 15pt;
+    font-size: 2em;
+    font-family: 'Knewave';
 }
 
 section{
@@ -100,7 +139,6 @@ section{
     display: flex;
     background-color: #8daffa;
     width: 100%;
-    height: 70vh;
 }
 
 .nada{
@@ -109,11 +147,12 @@ section{
     display: flex;
 }
 
-.galeria{
-    margin: 3vh 0 0 0;
-    font-size: 35pt;
+#galeria{
+    margin: 2vh 0 0 0;
+    font-size: 3em;
     display: block;
     color: white;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, .2);
 }
 
 .second{
@@ -121,7 +160,6 @@ section{
     font-size: 17pt;
     height: auto;
     width: 95%;
-    display: flex;
     color: rgb(124, 124, 124);
     align-items: center;
     text-align: center;
@@ -146,7 +184,6 @@ h2{
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin-top: 1vh;
     padding: 1vw;
 }
 
@@ -157,12 +194,13 @@ h2{
     display: flex;
 }
 
-#uselesss{
-    font-size: 35pt;
+#vantagens{
+    font-size: 3em;
     margin: 5vh 0 0 0;
     text-align: center;
     display: block;
     color: white;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, .2);
 }
 
 .vantagem{
@@ -171,7 +209,7 @@ h2{
     display: flex;
     background-color: #acc6ff;
     width: 100%;
-    height: 70vh;
+    height: 40vh;
 }
 
 .vantagem div{
@@ -179,10 +217,9 @@ h2{
 }
 
 .vantagems{
+    max-width: 100px;
     border: solid black 5px;
     border-radius: 100%;
-    justify-content: space-evenly;
-    display: flex;
 }
 
 aside{
@@ -230,7 +267,7 @@ aside{
 
 .send{
     background-color: #3474fd;
-    width: 15%;
+    width: 20%;
     height: 10%;
     border-radius: 20px;
     margin-left: 1vw;
@@ -239,7 +276,7 @@ aside{
 .butest{
     margin: 0;
     color: whitesmoke;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .oia{
@@ -303,6 +340,24 @@ h6:hover{
         display: none;
     }
 
+    .pseudobotao{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 32px;
+        height: 50%;
+        margin: 0 0 0 5vw;
+    }
+    
+    .sandwich{
+        height: 1vh;
+        background-color: black;
+        width: 100%;
+        border-radius: 35px;
+        margin: 5% 0;
+    }
+
     .text{
         width: 90%;
     }
@@ -317,23 +372,37 @@ h6:hover{
     }
 
     .coisa{
-        margin: 0;
+        margin: 1vh 0 0 0;
         font-size: 12pt;
     }
 
     header{
-        height: 50vw;
+        height: 65vw;
+    }
+
+    #vantagens{
+        margin: 1vh 0 0 0;
+    }
+
+    .realfooter{
+        height: auto;
+    }
+
+    .time{
+        margin: 55px 0 0 0;
+        width: 75%;
     }
 
     .somos p{
-        display: none;
+        margin: 0;
+        font-size: 1.5em;
     }
 
     section{
         flex-direction: row;
         justify-content: flex-start;
         display: block;
-        height: 80vh;
+        height: auto;
     }
 
     section .segunda{
@@ -345,10 +414,16 @@ h6:hover{
 
     h2{
         margin: 0 2vw;
+        align-self: flex-start;
+    }
+
+    .icone{
+        margin: 0 0 1vh 2vw
     }
 
     .second{
-        display: none;
+        display: block;
+        width: auto;
     }
 
     .vantagem{
@@ -356,7 +431,7 @@ h6:hover{
     }
 
     .vantagem h2{
-        font-size: 15pt;
+        font-size: 4vw;
         margin: 0;
     }
     
@@ -367,10 +442,90 @@ h6:hover{
     }
 
     aside{
-        display: none;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #vidro{
+        width: 70vw;
+        height: 50%;
+        margin: 2vh 0 2vh 0;
+    }
+
+    iframe{
+        width: 70vw;
+        height: 100%;
+    }
+
+    .info{
+        width: 80vw;
     }
 
     .center{
         width: 80%;
+    }
+}
+
+@keyframes textoDinamico {
+    0% {
+        color: blue;
+        font-size: 1em;
+    }
+    10% {
+        color: red;
+        font-size: 1.5em;
+    }
+    45% {
+        color: white;
+        font-size: 1.5em;
+    }
+    50% {
+        font-size: 2em;
+    }
+    55% {
+        font-size: 2.5em;
+    }
+    60% {
+        text-align: left;
+    }
+    65% {
+        text-align: right;
+    }
+    70% {
+        text-align: center;
+        text-shadow: none;
+    }
+    80% {
+        text-shadow: 4px 4px 2px rgba(0, 0, 0, 1);
+    }
+    90% {
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, .4);
+    }
+    100% {
+        color: white;
+        text-align: center;
+        font-size: 2.5em;
+        word-spacing: 0px;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, .4);
+    }
+}
+@keyframes palavraDinamica {
+    0% {
+        color: inherit;
+    }
+    11% {
+        color: inherit;
+    }
+    33% {
+        color: #333;
+        font-style: normal;
+    }
+    45% {
+        color: #333;
+        font-style: italic;
+    }
+    100% {
+        color: #333;
+        font-style: italic;
     }
 }
